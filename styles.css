@@ -1,0 +1,88 @@
+/* Reset some default browser styling */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.hero-section {
+    background: url('doraemon.png') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.cta-button:hover {
+    background: #0056b3;
+}
+
+.content-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.service-box {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
